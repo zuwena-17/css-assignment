@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    padding:0;
+}
+.content{
+    width:600;
+    margin:5px auto;
+    padding:1px;
+    background-color: white;
+    border:1px;
+}
+.float-right{
+    float:right;
+    margin:0 0 10px 20px;
+    
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 1: Introduction to HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: brown;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .links a:hover {
+            background-color:brown
+        }
+
+        /* New Button Styles */
+        .alternate-button {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: brown; /* Orange */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .alternate-button:hover {
+            background-color: #FFA07A; /* Lighter Orange */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>Tutorial 1: Introduction to HTML</h1>
+        </header>
+        <section class="section">
+            <h2>What is HTML?</h2>
+            <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure of a web page using a markup format consisting of various HTML elements.</p>
+        </section>
+        <section class="section">
+            <h2>Basic HTML Structure</h2>
+            <p>Every HTML document consists of the following basic structure:</p>
+            <pre>
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;title&gt;Page Title&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;Heading&lt;/h1&gt;
+                        &lt;p&gt;Paragraph&lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+        </section>
+        <section class="section">
+            <h2>HTML Elements</h2>
+            <p>HTML elements are the building blocks of HTML pages. They are represented by tags enclosed in angle brackets, and they define the structure and content of the web page.</p>
+            <p>Common HTML elements include headings, paragraphs, links, images, lists, tables, forms, and more.</p>
+            
+        </section>
+        <section class="section">
+            <h2>HTML Terminology</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language - The standard markup language for creating web pages.</dd>
+                <dt>Element</dt>
+                <dd>A part of a webpage that is defined by tags and contains specific content or serves a specific purpose.</dd>
+                <dt>Tag</dt>
+                <dd>An HTML code that specifies the structure and formatting of content within a webpage.</dd>
+            </dl>
+        </section>
+        <div class="links">
+            <a href="q4.2.html" class="alternate-button">Next: Tutorial 2: Styling with CSS</a>
+            <a href="q4.1.html" class="alternate-button">Next: Tutorial 3: JavaScript Basics</a>
+            <a href="q4.html" class="alternate-button">Back to Homepage</a>
+        </div>
+        <footer>
+            <p>&copy; 2024 HTML Tutorial</p>
+        </footer>
+    </div>
+</body>
+</html>
